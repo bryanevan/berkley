@@ -2,10 +2,8 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import "../../public/assets/fonts/fonts.css";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
@@ -22,7 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={"font-Nohemi font-thin"}>
+        {" "}
         <ThemeProvider attribute="class">
           <Navbar />
           <main className="mx-auto max-w-3xl px-3 py-10">{children}</main>

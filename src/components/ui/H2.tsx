@@ -4,7 +4,7 @@ export function H2(props: React.HTMLProps<HTMLHeadingElement>) {
   return (
     <h2
       {...props}
-      className={cn("text-2xl font-semibold tracking-tight", props.className)}
+      className={cn("font text-2xl tracking-tight", props.className)}
     />
   );
 }
