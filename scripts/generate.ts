@@ -28,10 +28,7 @@ async function generateEmbeddings() {
     .filter((doc) => doc.metadata.source.endsWith("page.tsx"))
     .map((doc): DocumentInterface => {
       const url =
-        doc.metadata.source
-          .replace(/\\/g, "/")
-          .split("/src/app")[1]
-          .split("/page.")[0] || "/";
+        doc.metadata.source.split("/src/app")[1].split("/page.")[0] || "/";
 
       const pageContentTrimmed = doc.pageContent
         .replace(/^import.*$/gm, "") // Remove all import statements
