@@ -14,10 +14,13 @@ export default function Home() {
     <section className="space-y-16 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat px-1 py-8">
       <section className="grid grid-cols-1 items-center gap-8 sm:grid-cols-2">
         <div className="space-y-3">
-          <H1 className="text-center sm:text-start">Aloha, I&apos;m Berkley 👋</H1>
-          <p className="text-center sm:text-start">
-            Working with technology is my passion and purpose. 
-            Together we can impact our world with thoughtful consideration and awesome tech.
+          <H1 className="text-center sm:text-start">BERKLEY</H1>
+          <p className="letter-spacing sm:text-start">
+            Developer
+            <br></br>
+            Machine Learning
+            <br></br>
+            Professional Fruit Slicer
           </p>
         </div>
         <div className="flex justify-center">
@@ -31,12 +34,11 @@ export default function Home() {
         </div>
       </section>
       <section className="space-y-3 text-center">
-        <H2>Ask the chatbot anything about me</H2>
+        <H2>VEEBEE WILL ANSWER ANY QUESTIONS ABOUT BERKLEY. </H2>
         <p>
-          Click the little <Bot className="inline pb-1" /> icon in the top bar
-          to activate the AI chat. You can ask the chatbot any question about me
-          and it will find the relevant info on this website. The bot can even
-          provide links to pages you&apos;re looking for.
+          Click the <Bot className="inline pb-1" /> icon in the top bar to
+          activate VeeBee. He knows Berkley pretty well, and can even provide
+          links to pages you&apos;re looking for.
         </p>
       </section>
     </section>

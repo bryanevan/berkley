@@ -55,5 +55,10 @@
   }
   body {
     @apply bg-background text-foreground;
+    letter-spacing: 0.05em;
   }
+}
+
+.letter-spacing {
+  letter-spacing: 0.05em;
 }

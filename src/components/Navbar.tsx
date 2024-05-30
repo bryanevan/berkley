@@ -6,10 +6,10 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 bg-background">
       <div className="mx-auto flex max-w-3xl flex-wrap justify-between gap-3 px-3 py-4">
-        <nav className="font space-x-4">
-          <Link href="/">home</Link>
-          <Link href="/about">about me</Link>
-          <Link href="/works">works</Link>
+        <nav className="space-x-4">
+          <Link href="/">HOME</Link>
+          <Link href="/about">ABOUT</Link>
+          <Link href="/works">WORKS</Link>
         </nav>
         <div className="flex items-center gap-4">
           <AIChatButton />
