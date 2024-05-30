@@ -10,4 +10,4 @@ Built with:
 - Tailwind CSS
 - TypeScript
 
-![thumbnail](https://github.com/bryanevan/berkley)
+![thumbnail](https://github.com/bryanevan/berkley/public/assets/thumbnail.png)
