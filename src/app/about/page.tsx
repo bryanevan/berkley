@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <section className="letter-spacing space-y-6">
+    <section className="space-y-6 tracking-widest">
       <H1>About Me</H1>
       <section className="space-y-3">
         <H2>Who am I?</H2>

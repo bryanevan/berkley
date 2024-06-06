@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.letter-spacing {
+  letter-spacing: 0.05em;
+}
+
 @layer base {
   :root {
     --background: 40 40% 20%;
@@ -55,10 +59,5 @@
   }
   body {
     @apply bg-background text-foreground;
-    letter-spacing: 0.05em;
   }
-}
-
-.letter-spacing {
-  letter-spacing: 0.05em;
 }

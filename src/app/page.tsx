@@ -4,9 +4,10 @@ import { H2 } from "@/components/ui/H2";
 import { Bot } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
+import "../app/globals.css";
 
 export const metadata: Metadata = {
-  title: "Berkley - My Smart Portfolio",
+  title: "Berkley",
 };
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <section className="grid grid-cols-1 items-center gap-8 sm:grid-cols-2">
         <div className="space-y-3">
           <H1 className="text-center sm:text-start">BERKLEY</H1>
-          <p className="letter-spacing sm:text-start">
+          <p className="tracking-wider sm:text-start">
             Developer
             <br></br>
             Machine Learning
@@ -33,7 +34,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="space-y-3 text-center">
+      <section className="space-y-3 text-center tracking-wider">
         <H2>VEEBEE WILL ANSWER ANY QUESTIONS ABOUT BERKLEY. </H2>
         <p>
           Click the <Bot className="inline pb-1" /> icon in the top bar to

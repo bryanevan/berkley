@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        custom: "0.05em",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Berkley",
     default: "Berkley",
   },
-  description: "Check out my smart portfolio website with a custom AI chatbot.",
+  description: "Check out my smart portfolio with a virtual me to chat with.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"font-Nohemi font-thin"}>
+      <body className={"font-Nohemi letter-spacing font-thin"}>
         {" "}
         <ThemeProvider attribute="class">
           <Navbar />

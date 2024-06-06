@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <section className="space-y-6">
+    <section className="space-y-6 tracking-widest">
       <H1>Past Projects</H1>
       <section className="space-y-3">
         <H2>1st Project</H2>
@@ -27,10 +27,10 @@ export default function Page() {
         <H2>Side projects</H2>
         <p>
           I have been spending a great deal of time exploring the intersection
-          of machine learning and web development of late; searching for ways to
-          bring the two together in a way that is both useful and practical for
-          end users of varying demographics and technological skill. There are
-          many problems that can be solved with the right combination of machine
+          of machine learning and web development; searching for ways to bring
+          the two together in a way that is both useful and practical for end
+          users of varying demographics and technological skill. There are many
+          problems that can be solved with the right combination of machine
           learning and web development, and I am excited to be a part of the
           solution.{" "}
         </p>
